@@ -1,0 +1,84 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.appnhac"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->/Users/bach/MobileApp/MusicPlayer/MusicPlayerApp/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->/Users/bach/MobileApp/MusicPlayer/MusicPlayerApp/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.VIBRATE" />
+11-->/Users/bach/MobileApp/MusicPlayer/MusicPlayerApp/src/main/AndroidManifest.xml:5:5-66
+11-->/Users/bach/MobileApp/MusicPlayer/MusicPlayerApp/src/main/AndroidManifest.xml:5:22-63
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/bach/MobileApp/MusicPlayer/MusicPlayerApp/src/main/AndroidManifest.xml:6:5-67
+12-->/Users/bach/MobileApp/MusicPlayer/MusicPlayerApp/src/main/AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
+13-->/Users/bach/MobileApp/MusicPlayer/MusicPlayerApp/src/main/AndroidManifest.xml:7:5-80
+13-->/Users/bach/MobileApp/MusicPlayer/MusicPlayerApp/src/main/AndroidManifest.xml:7:22-77
+14
+15    <application
+15-->/Users/bach/MobileApp/MusicPlayer/MusicPlayerApp/src/main/AndroidManifest.xml:9:5-34:19
+16        android:allowBackup="true"
+16-->/Users/bach/MobileApp/MusicPlayer/MusicPlayerApp/src/main/AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.1.0] /Users/bach/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->/Users/bach/MobileApp/MusicPlayer/MusicPlayerApp/src/main/AndroidManifest.xml:11:9-43
+20        android:label="@string/app_name"
+20-->/Users/bach/MobileApp/MusicPlayer/MusicPlayerApp/src/main/AndroidManifest.xml:12:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->/Users/bach/MobileApp/MusicPlayer/MusicPlayerApp/src/main/AndroidManifest.xml:13:9-54
+22        android:supportsRtl="true"
+22-->/Users/bach/MobileApp/MusicPlayer/MusicPlayerApp/src/main/AndroidManifest.xml:14:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme" >
+24-->/Users/bach/MobileApp/MusicPlayer/MusicPlayerApp/src/main/AndroidManifest.xml:15:9-40
+25        <activity
+25-->/Users/bach/MobileApp/MusicPlayer/MusicPlayerApp/src/main/AndroidManifest.xml:16:9-18:53
+26            android:name="edu.uit.MusicPlayer.Activity.PlayMvActivity"
+26-->/Users/bach/MobileApp/MusicPlayer/MusicPlayerApp/src/main/AndroidManifest.xml:17:13-52
+27            android:screenOrientation="landscape" />
+27-->/Users/bach/MobileApp/MusicPlayer/MusicPlayerApp/src/main/AndroidManifest.xml:18:13-50
+28        <activity
+28-->/Users/bach/MobileApp/MusicPlayer/MusicPlayerApp/src/main/AndroidManifest.xml:19:9-21:46
+29            android:name="edu.uit.MusicPlayer.Activity.PlayNhacActivity"
+29-->/Users/bach/MobileApp/MusicPlayer/MusicPlayerApp/src/main/AndroidManifest.xml:20:13-54
+30            android:launchMode="singleTop" />
+30-->/Users/bach/MobileApp/MusicPlayer/MusicPlayerApp/src/main/AndroidManifest.xml:21:13-43
+31        <activity android:name="edu.uit.MusicPlayer.Activity.DanhsachtatcaalbumActivity" />
+31-->/Users/bach/MobileApp/MusicPlayer/MusicPlayerApp/src/main/AndroidManifest.xml:22:9-73
+31-->/Users/bach/MobileApp/MusicPlayer/MusicPlayerApp/src/main/AndroidManifest.xml:22:19-70
+32        <activity android:name="edu.uit.MusicPlayer.Activity.DanhsachtheloaitheochudeActivity" />
+32-->/Users/bach/MobileApp/MusicPlayer/MusicPlayerApp/src/main/AndroidManifest.xml:23:9-79
+32-->/Users/bach/MobileApp/MusicPlayer/MusicPlayerApp/src/main/AndroidManifest.xml:23:19-76
+33        <activity android:name="edu.uit.MusicPlayer.Activity.DanhsachtatcachudeActivity" />
+33-->/Users/bach/MobileApp/MusicPlayer/MusicPlayerApp/src/main/AndroidManifest.xml:24:9-73
+33-->/Users/bach/MobileApp/MusicPlayer/MusicPlayerApp/src/main/AndroidManifest.xml:24:19-70
+34        <activity android:name="edu.uit.MusicPlayer.Activity.DanhsachcacplaylistActivity" />
+34-->/Users/bach/MobileApp/MusicPlayer/MusicPlayerApp/src/main/AndroidManifest.xml:25:9-74
+34-->/Users/bach/MobileApp/MusicPlayer/MusicPlayerApp/src/main/AndroidManifest.xml:25:19-71
+35        <activity android:name="edu.uit.MusicPlayer.Activity.DanhsachbaihatActivity" />
+35-->/Users/bach/MobileApp/MusicPlayer/MusicPlayerApp/src/main/AndroidManifest.xml:26:9-69
+35-->/Users/bach/MobileApp/MusicPlayer/MusicPlayerApp/src/main/AndroidManifest.xml:26:19-66
+36        <activity android:name="edu.uit.MusicPlayer.Activity.MainActivity" >
+36-->/Users/bach/MobileApp/MusicPlayer/MusicPlayerApp/src/main/AndroidManifest.xml:27:9-33:20
+36-->/Users/bach/MobileApp/MusicPlayer/MusicPlayerApp/src/main/AndroidManifest.xml:27:19-56
+37            <intent-filter>
+37-->/Users/bach/MobileApp/MusicPlayer/MusicPlayerApp/src/main/AndroidManifest.xml:28:13-32:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->/Users/bach/MobileApp/MusicPlayer/MusicPlayerApp/src/main/AndroidManifest.xml:29:17-69
+38-->/Users/bach/MobileApp/MusicPlayer/MusicPlayerApp/src/main/AndroidManifest.xml:29:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->/Users/bach/MobileApp/MusicPlayer/MusicPlayerApp/src/main/AndroidManifest.xml:31:17-77
+40-->/Users/bach/MobileApp/MusicPlayer/MusicPlayerApp/src/main/AndroidManifest.xml:31:27-74
+41            </intent-filter>
+42        </activity>
+43    </application>
+44
+45</manifest>
